@@ -14,7 +14,6 @@ export const navLinks = [
     path: '/admissions',
   },
   { label: 'School Facilities', path: '/facilities' },
-  { label: 'Gallery', path: '/gallery' },
   { label: 'Blog', path: '/blog' },
   { label: 'Contact Us', path: '/contact' },
 ];

@@ -5,7 +5,6 @@ import AboutPage from './pages/AboutPage';
 import AcademicsPage from './pages/AcademicsPage';
 import AdmissionsPage from './pages/AdmissionsPage';
 import FacilitiesPage from './pages/FacilitiesPage';
-import GalleryPage from './pages/GalleryPage';
 import ContactPage from './pages/ContactPage';
 import BlogPage from './pages/BlogPage';
 
@@ -19,7 +18,6 @@ function App() {
           <Route path="/academics" element={<AcademicsPage />} />
           <Route path="/admissions" element={<AdmissionsPage />} />
           <Route path="/facilities" element={<FacilitiesPage />} />
-          <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/blog" element={<BlogPage />} />
         </Route>
