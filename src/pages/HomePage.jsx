@@ -6,6 +6,8 @@ import WhyUsSection from '../components/sections/WhyUsSection';
 import HolisticDevelopment from '../components/sections/HolisticDevelopment';
 import InfrastructureGrid from '../components/sections/InfrastructureGrid';
 import ValuesGrid from '../components/sections/ValuesGrid';
+import TestimonialCarousel from '../components/sections/TestimonialCarousel';
+import FAQSection from '../components/sections/FAQSection';
 import FloatingButtons from '../components/common/FloatingButtons';
 
 export default function HomePage() {
@@ -19,7 +21,8 @@ export default function HomePage() {
       <HolisticDevelopment />
       <InfrastructureGrid />
       <ValuesGrid />
-      {/* Remaining homepage sections will be added in Phase 7 */}
+      <TestimonialCarousel />
+      <FAQSection />
       <FloatingButtons />
     </>
   );
