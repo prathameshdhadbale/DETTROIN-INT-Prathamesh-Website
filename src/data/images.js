@@ -1,130 +1,56 @@
 // ============================================
 // CENTRAL IMAGE REGISTRY
 // Excellence International School Redesign
-//
-// Every image used in the site is referenced from this file.
-// To replace a placeholder, update the URL here — nothing
-// else needs to change.
 // ============================================
 
-// TODO: replace with real image — School hero banner showing students at chalkboard / campus wide shot
-export const heroBanner1 = 'https://placehold.co/1920x700/0F2A4A/FAF7F2?text=Hero+Banner+-+Students+at+Chalkboard';
-
-// TODO: replace with real image — School logo (full color, transparent background)
-export const schoolLogo = 'https://placehold.co/200x80/FFFFFF/0F2A4A?text=EIS+Logo';
-
-// TODO: replace with real image — School logo for dark backgrounds (white/light version)
-export const schoolLogoLight = 'https://placehold.co/200x80/0F2A4A/FFFFFF?text=EIS+Logo';
+// --- Branding ---
+export const heroBanner1 = 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1920&auto=format&fit=crop';
+export const schoolLogo = 'https://ui-avatars.com/api/?name=EIS&background=0F2A4A&color=fff&size=200&font-size=0.4&bold=true';
+export const schoolLogoLight = 'https://ui-avatars.com/api/?name=EIS&background=fff&color=0F2A4A&size=200&font-size=0.4&bold=true';
 
 // --- About Section ---
-
-// TODO: replace with real image — About section supporting graphic (school building or students studying)
-export const aboutImage = 'https://placehold.co/600x400/1A7A6D/FFFFFF?text=About+School';
-
-// TODO: replace with real image — Vision & Mission graphic
-export const visionMissionImage = 'https://placehold.co/600x400/D4A843/FFFFFF?text=Vision+%26+Mission';
+export const aboutImage = 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=800&auto=format&fit=crop';
+export const visionMissionImage = 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=800&auto=format&fit=crop';
 
 // --- Academic Stages ---
-
-// TODO: replace with real image — Pre-Primary: colorful play-based classroom with young children
-export const prePrimaryClassroom = 'https://placehold.co/640x440/DBEAFE/1E293B?text=Pre-Primary+Classroom';
-
-// TODO: replace with real image — Primary: kids doing an activity / hands-on learning
-export const primaryActivity = 'https://placehold.co/640x440/D1FAE5/1E293B?text=Primary+Kids+Activity';
-
-// TODO: replace with real image — Middle School: older students walking with books
-export const middleSchoolStudents = 'https://placehold.co/640x440/EDE9FE/1E293B?text=Middle+Schoolers+with+Books';
-
-// TODO: replace with real image — Daycare: caregiver/teacher with toddlers
-export const daycareToddlers = 'https://placehold.co/640x440/FCE7F3/1E293B?text=Teacher+with+Toddlers';
+export const prePrimaryClassroom = 'https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=800&auto=format&fit=crop';
+export const primaryActivity = 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=800&auto=format&fit=crop';
+export const middleSchoolStudents = 'https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop';
+export const daycareToddlers = 'https://images.unsplash.com/photo-1594608661623-aa0bd3a0c1ea?q=80&w=800&auto=format&fit=crop';
 
 // --- Why Us Section ---
-
-// TODO: replace with real image — Strong academic system (students in exam hall or library)
-export const academicSystem = 'https://placehold.co/640x440/0F2A4A/FFFFFF?text=Strong+Academic+System';
-
-// TODO: replace with real image — Concept-based learning (teacher demonstrating with models/experiments)
-export const conceptLearning = 'https://placehold.co/640x440/1A7A6D/FFFFFF?text=Concept-Based+Learning';
-
-// TODO: replace with real image — Experienced faculty (group of teachers or teacher in classroom)
-export const experiencedFaculty = 'https://placehold.co/640x440/0F2A4A/FFFFFF?text=Experienced+Faculty';
-
-// TODO: replace with real image — Safe & secure campus (school gate, security, CCTV)
-export const safeCampus = 'https://placehold.co/640x440/1A7A6D/FFFFFF?text=Safe+%26+Secure+Campus';
+export const academicSystem = 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop';
+export const conceptLearning = 'https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop';
+export const experiencedFaculty = 'https://images.unsplash.com/photo-1544717302-de2939b7ef71?q=80&w=800&auto=format&fit=crop';
+export const safeCampus = 'https://images.unsplash.com/photo-1599598425947-33002620b784?q=80&w=800&auto=format&fit=crop';
 
 // --- Holistic Development ---
-
-// TODO: replace with real image — Sports & physical education (students on playground/sports field)
-export const sportsPhysical = 'https://placehold.co/640x440/D4A843/FFFFFF?text=Sports+%26+Physical+Education';
-
-// TODO: replace with real image — Cultural & creative activities (students performing dance/music/art)
-export const culturalActivities = 'https://placehold.co/640x440/DBEAFE/1E293B?text=Cultural+%26+Creative+Activities';
-
-// TODO: replace with real image — Personality development & life skills (students in group activity)
-export const personalityDev = 'https://placehold.co/640x440/D1FAE5/1E293B?text=Personality+Development';
-
-// TODO: replace with real image — Transportation facility (school van/bus)
-export const transportFacility = 'https://placehold.co/640x440/FEF3C7/1E293B?text=School+Van+%2F+Transport';
+export const sportsPhysical = 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=800&auto=format&fit=crop';
+export const culturalActivities = 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=800&auto=format&fit=crop';
+export const personalityDev = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop';
+export const transportFacility = 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=800&auto=format&fit=crop';
 
 // --- Testimonials ---
-
-// TODO: replace with real image — Parent testimonial avatar 1
-export const testimonialAvatar1 = 'https://placehold.co/100x100/F1F5F9/475569?text=Parent+1';
-
-// TODO: replace with real image — Parent testimonial avatar 2
-export const testimonialAvatar2 = 'https://placehold.co/100x100/F1F5F9/475569?text=Parent+2';
-
-// TODO: replace with real image — Parent testimonial avatar 3
-export const testimonialAvatar3 = 'https://placehold.co/100x100/F1F5F9/475569?text=Parent+3';
-
-// TODO: replace with real image — Parent testimonial avatar 4
-export const testimonialAvatar4 = 'https://placehold.co/100x100/F1F5F9/475569?text=Parent+4';
-
-// TODO: replace with real image — Parent testimonial avatar 5
-export const testimonialAvatar5 = 'https://placehold.co/100x100/F1F5F9/475569?text=Parent+5';
+export const testimonialAvatar1 = 'https://i.pravatar.cc/150?img=11';
+export const testimonialAvatar2 = 'https://i.pravatar.cc/150?img=5';
+export const testimonialAvatar3 = 'https://i.pravatar.cc/150?img=12';
+export const testimonialAvatar4 = 'https://i.pravatar.cc/150?img=9';
+export const testimonialAvatar5 = 'https://i.pravatar.cc/150?img=13';
 
 // --- Gallery ---
-
-// TODO: replace with real image — Gallery: school annual day event
-export const galleryEvent1 = 'https://placehold.co/600x400/0F2A4A/FFFFFF?text=Annual+Day+Event';
-
-// TODO: replace with real image — Gallery: classroom activity
-export const galleryClassroom1 = 'https://placehold.co/600x400/1A7A6D/FFFFFF?text=Classroom+Activity';
-
-// TODO: replace with real image — Gallery: sports day
-export const gallerySports1 = 'https://placehold.co/600x400/D4A843/FFFFFF?text=Sports+Day';
-
-// TODO: replace with real image — Gallery: art & craft exhibition
-export const galleryArt1 = 'https://placehold.co/600x400/EDE9FE/1E293B?text=Art+%26+Craft+Exhibition';
-
-// TODO: replace with real image — Gallery: campus exterior
-export const galleryCampus1 = 'https://placehold.co/600x400/0F2A4A/FFFFFF?text=Campus+Exterior';
-
-// TODO: replace with real image — Gallery: library
-export const galleryLibrary1 = 'https://placehold.co/600x400/1A7A6D/FFFFFF?text=School+Library';
-
-// TODO: replace with real image — Gallery: science lab
-export const galleryLab1 = 'https://placehold.co/600x400/D4A843/FFFFFF?text=Science+Lab';
-
-// TODO: replace with real image — Gallery: assembly
-export const galleryAssembly1 = 'https://placehold.co/600x400/DBEAFE/1E293B?text=Morning+Assembly';
-
-// TODO: replace with real image — Gallery: cultural program
-export const galleryCultural1 = 'https://placehold.co/600x400/FCE7F3/1E293B?text=Cultural+Program';
-
-// TODO: replace with real image — Gallery: computer lab
-export const galleryComputer1 = 'https://placehold.co/600x400/D1FAE5/1E293B?text=Computer+Lab';
-
-// TODO: replace with real image — Gallery: school transport
-export const galleryTransport1 = 'https://placehold.co/600x400/FEF3C7/1E293B?text=School+Transport';
-
-// TODO: replace with real image — Gallery: playground
-export const galleryPlayground1 = 'https://placehold.co/600x400/FFEDD5/1E293B?text=Playground';
+export const galleryEvent1 = 'https://images.unsplash.com/photo-1511629091441-ee46146481b6?q=80&w=600&auto=format&fit=crop';
+export const galleryClassroom1 = 'https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=600&auto=format&fit=crop';
+export const gallerySports1 = 'https://images.unsplash.com/photo-1526676037777-05a232554f77?q=80&w=600&auto=format&fit=crop';
+export const galleryArt1 = 'https://images.unsplash.com/photo-1460518451285-97b6aa326961?q=80&w=600&auto=format&fit=crop';
+export const galleryCampus1 = 'https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=600&auto=format&fit=crop';
+export const galleryLibrary1 = 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=600&auto=format&fit=crop';
+export const galleryLab1 = 'https://images.unsplash.com/photo-1532094349884-543bc11b234d?q=80&w=600&auto=format&fit=crop';
+export const galleryAssembly1 = 'https://images.unsplash.com/photo-1529390079861-591de354faf5?q=80&w=600&auto=format&fit=crop';
+export const galleryCultural1 = 'https://images.unsplash.com/photo-1498931299472-f7a63a5a1cfa?q=80&w=600&auto=format&fit=crop';
+export const galleryComputer1 = 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=600&auto=format&fit=crop';
+export const galleryTransport1 = 'https://images.unsplash.com/photo-1557223562-6c77ef161f59?q=80&w=600&auto=format&fit=crop';
+export const galleryPlayground1 = 'https://images.unsplash.com/photo-1602061214088-75b8db5e90bf?q=80&w=600&auto=format&fit=crop';
 
 // --- Contact Page ---
-
-// TODO: replace with real image — Contact page hero or school building exterior
-export const contactHero = 'https://placehold.co/1200x400/0F2A4A/FFFFFF?text=Contact+Us';
-
-// TODO: replace with real image — Principal's photo
-export const principalPhoto = 'https://placehold.co/300x350/F1F5F9/475569?text=Principal+Photo';
+export const contactHero = 'https://images.unsplash.com/photo-1423666639041-f56000c27a9a?q=80&w=1200&auto=format&fit=crop';
+export const principalPhoto = 'https://i.pravatar.cc/300?img=60';
