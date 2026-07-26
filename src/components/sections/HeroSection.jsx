@@ -31,13 +31,13 @@ export default function HeroSection() {
 
           {/* Heading */}
           <motion.h1
-            className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading text-white leading-tight mb-6"
+            className="text-4xl md:text-5xl lg:text-6xl font-bold font-heading !text-white leading-tight mb-6"
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15 }}
           >
-            Nurturing Young Minds for a{' '}
-            <span className="text-gold">Brighter Tomorrow</span>
+            <span className="!text-white">Nurturing Young Minds for a</span>{' '}
+            <span className="text-gold whitespace-nowrap">Brighter Tomorrow</span>
           </motion.h1>
 
           {/* Subtitle */}
