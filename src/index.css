@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* ============================================
+   DESIGN SYSTEM — Excellence International School Redesign
+   Palette: Navy + Teal + Gold + Warm Off-White
+   Fonts: Inter (body) + Playfair Display (headings)
+   ============================================ */
+
+@theme {
+  /* --- Colors --- */
+  --color-navy: #0F2A4A;
+  --color-navy-light: #1A3D6B;
+  --color-navy-dark: #091D34;
+  --color-teal: #1A7A6D;
+  --color-teal-light: #23A392;
+  --color-teal-dark: #125A51;
+  --color-gold: #D4A843;
+  --color-gold-light: #E8C76A;
+  --color-gold-dark: #B88C2E;
+  --color-offwhite: #FAF7F2;
+  --color-cream: #F5F0E8;
+  --color-lightgray: #F1F5F9;
+  --color-body: #475569;
+  --color-heading: #1E293B;
+
+  /* --- Pastel palette for values cards --- */
+  --color-pastel-blue: #DBEAFE;
+  --color-pastel-green: #D1FAE5;
+  --color-pastel-yellow: #FEF3C7;
+  --color-pastel-pink: #FCE7F3;
+  --color-pastel-purple: #EDE9FE;
+  --color-pastel-orange: #FFEDD5;
+
+  /* --- Fonts --- */
+  --font-heading: 'Playfair Display', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* --- Spacing extensions --- */
+  --spacing-18: 4.5rem;
+  --spacing-88: 22rem;
+  --spacing-100: 25rem;
+  --spacing-120: 30rem;
+
+  /* --- Border radius --- */
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+}
+
+/* Google Fonts loaded via @import at top of file */
+
+/* ============================================
+   BASE STYLES
+   ============================================ */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-body);
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+  line-height: 1.25;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+/* Section container */
+.section-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .section-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Gradient overlays */
+.gradient-navy {
+  background: linear-gradient(135deg, var(--color-navy) 0%, var(--color-navy-light) 100%);
+}
+
+.gradient-teal {
+  background: linear-gradient(135deg, var(--color-teal) 0%, var(--color-teal-light) 100%);
+}
+
+/* Card base */
+.card {
+  background-color: #ffffff;
+  border-radius: var(--radius-xl);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  transform: translateY(-2px);
+}
+
+/* Accent shape (organic blob for hero) */
+.accent-blob {
+  border-radius: 60% 40% 70% 30% / 50% 60% 40% 50%;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-offwhite);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-navy-light);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-navy);
+}
