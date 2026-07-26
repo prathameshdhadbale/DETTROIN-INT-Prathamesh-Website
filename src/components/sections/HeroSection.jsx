@@ -60,7 +60,7 @@ export default function HeroSection() {
             transition={{ duration: 0.6, delay: 0.45 }}
           >
             <a
-              href="/admissions/enquiry"
+              href="/admissions"
               className="inline-flex items-center px-6 py-3.5 bg-gold hover:bg-gold-dark text-white font-semibold rounded-lg transition-colors shadow-lg shadow-gold/25"
             >
               Apply Now

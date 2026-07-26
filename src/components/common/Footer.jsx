@@ -89,18 +89,10 @@ export default function Footer() {
               ))}
               <li>
                 <Link
-                  to="/admissions/enquiry"
+                  to="/admissions"
                   className="text-sm text-white/70 hover:text-gold transition-colors"
                 >
-                  Enquiry Form
-                </Link>
-              </li>
-              <li>
-                <Link
-                  to="/admissions/procedure"
-                  className="text-sm text-white/70 hover:text-gold transition-colors"
-                >
-                  Admission Procedure
+                  Admissions Info
                 </Link>
               </li>
             </ul>
@@ -112,16 +104,14 @@ export default function Footer() {
               Our Academics
             </h3>
             <ul className="space-y-3">
-              {academicLinks.map((link) => (
-                <li key={link.path}>
-                  <Link
-                    to={link.path}
-                    className="text-sm text-white/70 hover:text-gold transition-colors"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
+              <li>
+                <Link
+                  to="/academics"
+                  className="text-sm text-white/70 hover:text-gold transition-colors"
+                >
+                  View Academic Programs
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -47,11 +47,7 @@
   --radius-2xl: 1.5rem;
 }
 
-/* Google Fonts loaded via @import at top of file */
 
-/* ============================================
-   BASE STYLES
-   ============================================ */
 
 html {
   scroll-behavior: smooth;
@@ -65,15 +61,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-heading);
   color: var(--color-heading);
   line-height: 1.25;
 }
 
-/* ============================================
-   UTILITY CLASSES
-   ============================================ */
 
 /* Section container */
 .section-container {

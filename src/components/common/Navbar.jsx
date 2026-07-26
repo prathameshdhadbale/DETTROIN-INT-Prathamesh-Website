@@ -121,7 +121,7 @@ export default function Navbar() {
 
         {/* CTA Button (desktop) */}
         <Link
-          to="/admissions/enquiry"
+          to="/admissions"
           className="hidden lg:inline-flex items-center px-5 py-2.5 bg-gold text-white text-sm font-semibold rounded-lg hover:bg-gold-dark transition-colors shadow-sm"
         >
           Admissions Open
@@ -188,7 +188,7 @@ export default function Navbar() {
             )}
             {/* Mobile CTA */}
             <Link
-              to="/admissions/enquiry"
+              to="/admissions"
               className="block text-center mt-3 px-5 py-3 bg-gold text-white text-sm font-semibold rounded-lg hover:bg-gold-dark transition-colors"
             >
               Admissions Open
