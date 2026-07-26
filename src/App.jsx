@@ -16,8 +16,8 @@ function App() {
         <Route element={<MainLayout />}>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
-          <Route path="/academics/:stage" element={<AcademicsPage />} />
-          <Route path="/admissions/:section" element={<AdmissionsPage />} />
+          <Route path="/academics" element={<AcademicsPage />} />
+          <Route path="/admissions" element={<AdmissionsPage />} />
           <Route path="/facilities" element={<FacilitiesPage />} />
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/contact" element={<ContactPage />} />

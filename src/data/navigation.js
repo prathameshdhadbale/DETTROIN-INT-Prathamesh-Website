@@ -8,20 +8,10 @@ export const navLinks = [
   {
     label: 'Academics',
     path: '/academics',
-    children: [
-      { label: 'Pre-Primary', path: '/academics/pre-primary' },
-      { label: 'Primary', path: '/academics/primary' },
-      { label: 'Middle School', path: '/academics/middle' },
-      { label: 'Daycare', path: '/academics/daycare' },
-    ],
   },
   {
     label: 'Admissions',
     path: '/admissions',
-    children: [
-      { label: 'Enquiry Form', path: '/admissions/enquiry' },
-      { label: 'Admission Procedure', path: '/admissions/procedure' },
-    ],
   },
   { label: 'School Facilities', path: '/facilities' },
   { label: 'Gallery', path: '/gallery' },
