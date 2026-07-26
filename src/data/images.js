@@ -4,9 +4,9 @@
 // ============================================
 
 // --- Branding ---
-export const heroBanner1 = 'https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1920&auto=format&fit=crop';
-export const schoolLogo = 'https://ui-avatars.com/api/?name=EIS&background=0F2A4A&color=fff&size=200&font-size=0.4&bold=true';
-export const schoolLogoLight = 'https://ui-avatars.com/api/?name=EIS&background=fff&color=0F2A4A&size=200&font-size=0.4&bold=true';
+export const heroBanner1 = 'https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1920&auto=format&fit=crop';
+export const schoolLogo = 'https://res.cloudinary.com/qdk4bdtv/image/upload/v1785052860/Excellence-Logo.png_phuli8.webp';
+export const schoolLogoLight = 'https://res.cloudinary.com/qdk4bdtv/image/upload/v1785052860/Excellence-Logo.png_phuli8.webp';
 
 // --- About Section ---
 export const aboutImage = 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?q=80&w=800&auto=format&fit=crop';
@@ -16,19 +16,19 @@ export const visionMissionImage = 'https://images.unsplash.com/photo-14976337622
 export const prePrimaryClassroom = 'https://images.unsplash.com/photo-1588072432836-e10032774350?q=80&w=800&auto=format&fit=crop';
 export const primaryActivity = 'https://images.unsplash.com/photo-1503676260728-1c00da094a0b?q=80&w=800&auto=format&fit=crop';
 export const middleSchoolStudents = 'https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop';
-export const daycareToddlers = 'https://images.unsplash.com/photo-1594608661623-aa0bd3a0c1ea?q=80&w=800&auto=format&fit=crop';
+export const daycareToddlers = 'https://res.cloudinary.com/qdk4bdtv/image/upload/v1785052455/day-care.png_fvuini.webp';
 
 // --- Why Us Section ---
 export const academicSystem = 'https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop';
 export const conceptLearning = 'https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop';
 export const experiencedFaculty = 'https://images.unsplash.com/photo-1544717302-de2939b7ef71?q=80&w=800&auto=format&fit=crop';
-export const safeCampus = 'https://images.unsplash.com/photo-1599598425947-33002620b784?q=80&w=800&auto=format&fit=crop';
+export const safeCampus = 'https://res.cloudinary.com/qdk4bdtv/image/upload/v1785052731/Safe-and-Secure-Campus.png_cvjgyk.webp';
 
 // --- Holistic Development ---
 export const sportsPhysical = 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?q=80&w=800&auto=format&fit=crop';
-export const culturalActivities = 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=800&auto=format&fit=crop';
+export const culturalActivities = 'https://res.cloudinary.com/qdk4bdtv/image/upload/v1785052623/Cultural-and-Creative-Activities.png_kf09vc.webp';
 export const personalityDev = 'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800&auto=format&fit=crop';
-export const transportFacility = 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=800&auto=format&fit=crop';
+export const transportFacility = 'https://res.cloudinary.com/qdk4bdtv/image/upload/v1785052547/Transportation-Facility.png_b8gke3.webp';
 
 // --- Testimonials ---
 export const testimonialAvatar1 = 'https://i.pravatar.cc/150?img=11';
